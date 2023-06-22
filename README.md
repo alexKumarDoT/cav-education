@@ -104,13 +104,17 @@ Connected and Automated Vehicle education (CAVe)-in-a-box is an educational tool
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
+*No response from carmasupport@dot.gov for J2735*
+*Found https://github.com/tallis/J2735-python as possible alternative, but requires MS C++ Build Tools*
 To get started install the prerequisites and obtain a copy of J2735.py and place it inside kafka/src/dsrc_message_decoder.
 
 ### Prerequisites
 
 cav in box uses docker container to start the services.
 
+*first cmd works in bash terminal; second requires root*
+> Error: this installer needs the ability to run commands as root.
+>We are unable to find either "sudo" or "su" available to make this happen.
 ```bash
 curl -fsSL https://get.docker.com -o get-docker.sh
 sh get-docker.sh
@@ -119,7 +123,7 @@ sh get-docker.sh
 `J2735.py` to obtaine the source code for J2735.py contact [carmasupport@dot.gov](carmasupport@dot.gov)
 
 ### Installation
-
+*/cavinbox is not a folder, is /cav_box*
 1. Clone the repo
    ```sh
    git clone https://github.com/usdot-fhwa-stol/cav-education.git
